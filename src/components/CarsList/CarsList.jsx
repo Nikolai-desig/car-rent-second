@@ -1,6 +1,6 @@
 import css from './CarsList.module.css';
 import { AiOutlineHeart } from 'react-icons/ai';
-import { AiFillHeart } from 'react-icons/ai';
+// import { AiFillHeart } from 'react-icons/ai';
 import { nanoid } from 'nanoid';
 
 const CarsList = ({ cars }) => {

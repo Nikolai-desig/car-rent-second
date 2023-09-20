@@ -1,4 +1,4 @@
-import React, { lazy } from "react";
+import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import css from './App.module.css'
 import Home from "./Pages/Home";

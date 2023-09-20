@@ -1,4 +1,4 @@
-import css from './Favorite.module.css';
+
 import { useState, useEffect } from 'react';
 import { getCars } from '../services/apiCars';
 import CarsList from 'components/CarsList/CarsList';
