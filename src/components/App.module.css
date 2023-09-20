@@ -1,0 +1,22 @@
+.navigation {
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px solid black;
+    border-top: none;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.link{
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: #3470FF;
+    border-radius: 10px;
+}
+
+.link:hover {
+    background-color: #0B44CD;
+}

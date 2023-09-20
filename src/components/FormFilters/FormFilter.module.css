@@ -1,0 +1,55 @@
+.forms {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.form{
+    margin-right: 18px;
+
+}
+
+.title {
+    color: #8A8A89;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 8px;
+}
+
+.select__field {
+    padding: 14px 18px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e8e8e9;
+    outline: none;
+}
+
+.select__field1 {
+    border-right: 1px solid #bbbbba;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.select__field2 {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.button__form {
+    color: white;
+    background-color: #3470FF;
+    border-radius: 10px;
+    border: none;
+    padding: 14px 44px;
+    margin-bottom: 0;
+    margin-top: 26px;
+    cursor: pointer;
+}
+
+.button__form:hover {
+    background-color: #0B44CD;
+}
+
+.from__to{
+    display: flex;
+}
