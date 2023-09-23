@@ -7,7 +7,7 @@ import Favorite from "./Pages/Favorite";
 
 export default function App() {
   return (
-    <div>
+    <div className={css.app}>
       <header>
         <nav className={css.navigation}>
           <Link to="/" className={css.link}>

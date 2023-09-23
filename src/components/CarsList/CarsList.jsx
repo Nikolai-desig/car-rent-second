@@ -1,13 +1,12 @@
 import css from './CarsList.module.css';
 import { AiOutlineHeart } from 'react-icons/ai';
 // import { AiFillHeart } from 'react-icons/ai';
-import { nanoid } from 'nanoid';
 
 const CarsList = ({ cars }) => {
   return (
     <ul className={css.cars__list}>
       {cars.map(car => (
-        <li key={nanoid()} className={css.car__box}>
+        <li key={car.id} className={css.car__box}>
           <img src={car.img} alt={car.model} className={css.car__img} />
           <AiOutlineHeart className={css.icon}/>
           <div className={css.title}>
